@@ -13,27 +13,27 @@ function togliHamb(){
 
 
 //Metodo 1
-function init() {
-  $('.fas.fa-bars').click(function() {
-    mostraHamb();
-  });
-
-  $('.fas.fa-times').click(function() {
-    togliHamb();
-  });
-}
-
-init();
+// function init() {
+//   $('.fas.fa-bars').click(function() {
+//     mostraHamb();
+//   });
+//
+//   $('.fas.fa-times').click(function() {
+//     togliHamb();
+//   });
+// }
+//
+// init();
 
 
 
 //Metodo 2
 
-// function init() {
-//   $('.fas.fas-bars').click(mostraHamb);
-//   $('.fas.fa-times').click(togliHamb);
-//
-//
-// }
-//
-// init();
+function init() {
+  $('.fas.fa-bars').click(mostraHamb);
+  $('.fas.fa-times').click(togliHamb);
+
+
+}
+
+init();
